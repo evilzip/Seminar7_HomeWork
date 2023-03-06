@@ -39,7 +39,7 @@ int[,] GenerateArrayInt32(int row, int col, int MinValue, int MaxValue) //Соз
         }
         return array;
     }
-    System.Console.WriteLine("Error! String and column numbers mast be > 1");
+    System.Console.WriteLine("Error! Can not generate array: invalid String or column numbers");
     Environment.Exit(-3);
     return array;
 }
