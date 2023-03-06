@@ -35,7 +35,7 @@ double InputDouble(string message)
     return 0;
 }
 
-double[,] GenerateArray(int row, int col, double MaxValue, double MinValue) //Создание ТОЛЬКО двумерного массива. Если невозможно - то выход из программы.
+double[,] GenerateArray(int row, int col, double MinValue, double MaxValue) //Создание ТОЛЬКО двумерного массива. Если невозможно - то выход из программы.
 {
     double[,] array = new double[,] { };
     if (row > 1 && col > 1)
