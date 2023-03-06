@@ -51,7 +51,7 @@ double[,] GenerateArray(int row, int col, double MinValue, double MaxValue) //С
         }
         return array;
     }
-    System.Console.WriteLine("Error! String and column numbers mast be > 1");
+    System.Console.WriteLine("Error! Can not generate array: invalid String or column numbers");
     Environment.Exit(-3);
     return array;
 }
